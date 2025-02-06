@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.banner {
+    border: 2px solid #8B4513;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    color: #2E8B57;
+    font-size: 24px;
+    font-weight: bold;
+    width: 25%;
+    height: auto;
+}
+
+.university-name {
+    color: #CD5C5C;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    position: relative;
+    
+    
+    
+
+}
+
+.main-title {
+    background-color: #2E8B57;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.theme-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.theme-box {
+    flex: 1;
+    min-width: 300px;
+}
+
+.theme-year {
+    background-color: #CD5C5C;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.theme-content {
+    background-color: #98FB98;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.bible-quote {
+    font-style: italic;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    color: #CD5C5C;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .theme-container {
+        flex-direction: column;
+    }
+}
+.logo__ucbc{
+    display: flex;
+    margin-top: 2px;
+   
+}
+.congo{
+    width: 30%;
+    height: auto;
+    margin-left: 150px;
+    
+}
+.tuko{
+    color: #98FB98;
+}
+.bb{
+    color: #CD5C5C;
+}
+.titre__congo{
+    color: #2E8B57;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.logo__congo{
+    
+}
